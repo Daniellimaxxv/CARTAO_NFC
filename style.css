@@ -1,0 +1,57 @@
+/* Importando fonte bonita */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Estilizando o fundo e centralizando o conteúdo */
+
+body {
+    background: #f0f4ff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.card p {
+    margin: 8px 0 20px;
+    color: #555;
+}
+
+.card a {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: #25D366;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.card a:hover {
+    background-color: #1ebe5d;
+}
+
+.card a:nth-of-type(2) {
+    background-color: #c13584; /* Instagram */
+}
+
+.card a:nth-of-type(2):hover {
+    background-color: #a42c6f;
+}
