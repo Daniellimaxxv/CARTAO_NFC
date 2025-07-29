@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Importando fonte bonita */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
@@ -54,4 +55,69 @@ body {
 
 .card a:nth-of-type(2):hover {
     background-color: #a42c6f;
+=======
+/* Importando fonte bonita */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Estilizando o fundo e centralizando o conteúdo */
+body {
+    background: linear-gradient(to right, #0077ff, #00c6ff);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo do cartão */
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* Nome */
+.card h1 {
+    color: #003366;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+/* Profissão */
+.card p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Links como botões */
+.card a {
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: white;
+    background-color: #0077ff;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+/* Efeito ao passar o mouse nos links */
+.card a:hover {
+    background-color: #005fcc;
+}
+.botao-whatsapp:hover {
+  background-color: #128C7E;
+>>>>>>> 8ac6a4f91322a84299645410b68b23c42ccb539d
 }

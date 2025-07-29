@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 BEGIN:VCARD
 VERSION:3.0
 N:Daniel;Santa Maria;;;
@@ -6,4 +7,14 @@ ORG:Engenheiro Elétrico e Desenvolvedor
 TEL;TYPE=cell:+(55)11992973956
 EMAIL:daniel@email.com
 URL:https://www.instagram.com/seuusuario
+=======
+BEGIN:VCARD
+VERSION:3.0
+N:Daniel;Santa Maria;;;
+FN:Daniel Santa Maria
+ORG:Engenheiro Elétrico e Desenvolvedor
+TEL;TYPE=cell:+(55)11992973956
+EMAIL:daniel@email.com
+URL:https://www.instagram.com/seuusuario
+>>>>>>> 8ac6a4f91322a84299645410b68b23c42ccb539d
 END:VCARD
