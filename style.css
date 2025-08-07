@@ -1,61 +1,3 @@
-<<<<<<< HEAD
-/* Importando fonte bonita */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
-/* Estilizando o fundo e centralizando o conteúdo */
-
-body {
-    background: #f0f4ff;
-    font-family: 'Arial', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.card {
-    background: white;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.card h1 {
-    margin: 0;
-    font-size: 24px;
-    color: #333;
-}
-
-.card p {
-    margin: 8px 0 20px;
-    color: #555;
-}
-
-.card a {
-    display: inline-block;
-    margin: 10px 5px;
-    padding: 10px 20px;
-    border-radius: 25px;
-    text-decoration: none;
-    color: white;
-    background-color: #25D366;
-    font-weight: bold;
-    transition: background 0.3s;
-}
-
-.card a:hover {
-    background-color: #1ebe5d;
-}
-
-.card a:nth-of-type(2) {
-    background-color: #c13584; /* Instagram */
-}
-
-.card a:nth-of-type(2):hover {
-    background-color: #a42c6f;
-=======
 /* Importando fonte bonita */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
@@ -72,13 +14,15 @@ body {
 
 /* Estilo do cartão */
 .card {
-    background: white;
+    background-color: #3a3a3a;
     padding: 40px;
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
     text-align: center;
-    width: 300px;
+    width: 90%;
+    max-width: 400px;
     transition: transform 0.3s ease;
+    color: #ffffff;
 }
 
 /* Efeito ao passar o mouse */
@@ -86,16 +30,25 @@ body {
     transform: scale(1.03);
 }
 
+/* Foto de perfil */
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
 /* Nome */
 .card h1 {
-    color: #003366;
+    color: #ffffff;
     margin-bottom: 10px;
     font-size: 24px;
 }
 
 /* Profissão */
 .card p {
-    color: #555;
+    color: #cccccc;
     font-size: 16px;
     margin-bottom: 20px;
 }
@@ -117,7 +70,19 @@ body {
 .card a:hover {
     background-color: #005fcc;
 }
-.botao-whatsapp:hover {
-  background-color: #128C7E;
->>>>>>> 8ac6a4f91322a84299645410b68b23c42ccb539d
+
+/* Botão WhatsApp */
+.card a.botao-whatsapp {
+    background-color: #25D366;
+}
+.card a.botao-whatsapp:hover {
+    background-color: #128C7E;
+}
+
+/* Botão Instagram */
+.card a.botao-instagram {
+    background-color: #c13584;
+}
+.card a.botao-instagram:hover {
+    background-color: #a42c6f;
 }
