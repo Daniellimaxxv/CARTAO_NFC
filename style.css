@@ -3,7 +3,7 @@
 
 /* Estilizando o fundo e centralizando o conteúdo */
 body {
-    background: linear-gradient(to right, #0077ff, #00c6ff);
+    background: linear-gradient(135deg, #2e2e2e, #3c3c3c);
     font-family: 'Inter', sans-serif;
     display: flex;
     align-items: center;
@@ -32,11 +32,13 @@ body {
 
 /* Foto de perfil */
 .foto-perfil {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
+    width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 /* Nome */
