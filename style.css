@@ -3,7 +3,7 @@
 
 /* Estilizando o fundo e centralizando o conteúdo */
 body {
-    background: linear-gradient(135deg, #665555, #a39595);
+    background: linear-gradient(135deg, #f6eeee, #fae9e9);
     font-family: 'Inter', sans-serif;
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@ body {
 
 /* Estilo do cartão */
 .card {
-    background-color: #564545;
+    background-color: #beb5b5;
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
